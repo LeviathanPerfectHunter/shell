@@ -491,6 +491,7 @@ if (isset($_GET["feature"])) {
         <div id="shell">
             <pre id="shell-content">
                 <div id="shell-logo">   
+                                                 <span></span>
   _                _       _   _                 <span></span>               
  | |              (_)     | | | |                <span></span>
  | |     _____   ___  __ _| |_| |__   __ _ _ __  <span></span>
